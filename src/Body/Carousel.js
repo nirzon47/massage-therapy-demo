@@ -13,10 +13,18 @@ const Carousel = () => {
 		slidesToScroll: 1,
 	}
 	return (
-		<div>
+		<div className='mb-8'>
 			<Slider {...settings}>
-				<img src={carousel1} alt='Counselling' />
-				<img src={carousel2} alt='Counselling' />
+				<img
+					src={carousel1}
+					alt='Counselling'
+					className='lg:h-[32rem] object-cover object-top'
+				/>
+				<img
+					src={carousel2}
+					alt='Counselling'
+					className='lg:h-[32rem] object-cover object-top'
+				/>
 			</Slider>
 		</div>
 	)
