@@ -1,7 +1,7 @@
 const Navbar = () => {
 	return (
 		<nav className='w-full mb-4'>
-			<ul className='flex flex-wrap items-center sm:justify-center'>
+			<ul className='flex flex-wrap items-center gap-0 m-0 sm:justify-center'>
 				{['Home', 'About', 'Services', 'FAQ', 'Contact'].map((item) => {
 					if (item === 'Home') {
 						return (

@@ -1,4 +1,3 @@
-// import mainImage from '../assets/therapy-main.jpg'
 import Navbar from './Navbar'
 
 const Header = () => {
@@ -11,7 +10,6 @@ const Header = () => {
 				Massage Therapy
 			</p>
 			<Navbar />
-			{/* <img src={mainImage} alt='Counselling' className='w-full' /> */}
 		</>
 	)
 }
